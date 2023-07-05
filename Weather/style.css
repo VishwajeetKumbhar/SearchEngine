@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    /* background-image: url(https://images.unsplash.com/photo-1513124728368-b089a41bf754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80); */
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1528485238486-507af7c0aa19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80) ;
+    background-size: cover;
+    position: relative;
+}
+.fonticon{
+    position: absolute;
+    top: 48px;
+    left: 200px;
+    color: #fff;
+}
+.fonticon:hover{
+    scale: 1.1;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    margin:  50px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    margin: 5px auto 0;
+    width: 16px;
+}
+.Weather-icon{
+    width: 170px;
+    margin-top: 30px;
+
+}
+.weather h1{
+    font-size: 80px;
+
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+.details{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:  40px;
+    margin-right: 10px;
+}
+.humidity , .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+/* Api = 51b4a8186ada56e67f3947520ced403a  */
